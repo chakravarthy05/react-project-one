@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.formcontrol{
+  color: blue;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
