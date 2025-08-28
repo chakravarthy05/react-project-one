@@ -27,7 +27,7 @@ function App() {
                   <td>{employee.empId}</td>
                   <td>{employee.name}</td>
                   <td>{employee.designation}</td>
-                  <td>{employee.exp>=2.5 ? <h5>Eligible</h5>:<h5>Not Eligible</h5>}</td>
+                  <td>{employee.exp>=2.5 ? <h5>Eligible For Max Out</h5>:<h5>Not Eligible for maxout</h5>}</td>
                 </tr>
               );
             })}
